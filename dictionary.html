@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+#myTable td.header, #myTable td:hover {
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+<body>
+<h2>Dictionary of Technical Terms of Mechanical Engineering</h2>
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search in English" title="Type in a name">
+<input style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left; padding: 12px; border-bottom: 1px solid #ddd; background-position: 10px 10px; background-repeat: no-repeat; font-size: 16px; padding: 12px 20px 12px 40px; border: 1px solid #ddd; margin-bottom: 12px;" type="text" id="myInput1" onkeyup="myFunction1()" placeholder="Search in Turkish" title="Type in a name">
+<table id="myTable">
+  <tr class="header">
+    <th style="width:60%;">English</th>
+    <th style="width:40%;">Turkish</th>
+  </tr>
+  <tr>
+    <td class="header">A</td>
+    <td class="header"></td>
+  </tr>
+  <tr>
+    <td>Abbreviated</td>
+    <td>Kısaltılmış</td>
+  </tr>
+  <tr>
+    <td>Acceleration  </td>
+    <td>İvme</td>
+  </tr>
+  <tr>
+    <td>Acute Angle  </td>
+    <td>Dar Açı</td>
+  </tr>
+  <tr>
+    <td>Air Current  </td>
+    <td>Hava Akımı</td>
+  </tr>
+  <tr>
+    <td>Alloy  </td>
+    <td>Alaşım </td>
+  </tr>
+  <tr>
+    <td>Ancestor  </td>
+    <td>Ata</td>
+  </tr>
+  <tr>
+    <td>Angle  </td>
+    <td>Açı</td>
+  </tr>
+  <tr>
+    <td>Apparatus    </td>
+    <td>Cihaz</td>
+  </tr>
+  <tr>
+    <td>Aspect  </td>
+    <td>Görünüş</td>
+  </tr>
+  <tr>
+    <td>Aspect of Motion  </td>
+    <td>Hareketin Yönleri</td>
+  </tr>
+  <tr>
+    <td>Assessment</td>
+    <td>Değerlendirme</td>
+  </tr>
+  <tr>
+    <td>Axis  </td>
+    <td>Eksen </td>
+  </tr>
+  <tr>
+ 	  <td class="header">B</td>
+    <td class="header"></td>
+  </tr>
+  <tr>
+    <td>Bar  </td>
+    <td>Demir Çubuk</td>
+  </tr>
+  <tr>
+    <td>Belt   </td>
+    <td>Kayış</td>
+  </tr>
+  <tr>
+    <td>Bevel  </td>
+    <td>Konik</td>
+  </tr>
+   <tr>
+    <td>Blade</td>
+    <td>Pervane Kanadı</td>
+  </tr>
+  <tr>
+    <td>Block and Tackle</td>
+    <td>Palanga Takımı</td>
+  </tr>
+   <tr>
+    <td>Blower</td>
+    <td>Pervane, Fan</td>
+  </tr>
+  <tr>
+    <td>Boiler  </td>
+    <td>Kazan</td>
+  </tr>
+  <tr>
+    <td>Brass  </td>
+    <td>Pirinç</td>
+  </tr>
+  <tr>
+    <td>Breadth  </td>
+    <td>Genişlik</td>
+  </tr>
+  <tr>
+    <td>Buoyancy Force  </td>
+    <td>Kaldırma Kuvveti</td>
+  </tr>
+  <tr>
+    <td>By Rolling</td>
+    <td>Yuvarlayarak</td>
+  </tr>
+  <tr>
+    <td>By Sliding  </td>
+    <td>Kaydırarak</td>
+  </tr>
+  <tr>
+    <td>By Trial And Error </td>
+    <td>Deneme Yanılmayla</td>
+  </tr>
+  <tr>
+    <td>By-product</td>
+    <td>Yan Ürün</td>
+  </tr>
+ <tr>
+    <td class="header">C</td>
+    <td class="header"></td>
+  </tr>
+  <tr>
+    <td>Cable  </td>
+    <td>Kablo</td>
+  </tr>
+  <tr>
+    <td>Cage  </td>
+    <td>Rulman Kafesi</td>
+  </tr>
+  <tr>
+    <td>Cam  </td>
+    <td>Mil Dirseği</td>
+  </tr>
+  <tr>
+    <td>Carburetor  </td>
+    <td>Karbüratör</td>
+  </tr>
+  <tr>
+    <td>Chain  </td>
+    <td>Zincir</td>
+  </tr>
+  <tr>
+    <td>Civil Engineering  </td>
+    <td>İnşaat Mühendisliği</td>
+  </tr>
+  <tr>
+    <td>Clover-Leaf Cam  </td>
+    <td>Yonca Yapraklı Kam</td>
+  </tr>
+  <tr>
+    <td>Clutch  </td>
+    <td>Kavrama, Debriyaj</td>
+  </tr>
+  <tr>
+    <td>Coal Gas  </td>
+    <td>Kömür Gazı</td>
+  </tr>
+  <tr>
+    <td>Coeffiction of Friction  </td>
+    <td>Sürtünme Katsayısı</td>
+  </tr>
+  <tr>
+    <td>Combustible</td>
+    <td>Yanıcı</td>
+  </tr>
+  <tr>
+    <td>Commercialy  </td>
+    <td>Ticari Olarak</td>
+  </tr>
+  <tr>
+    <td>Comparable  </td>
+    <td>Karşılastırılabilir</td>
+  </tr>
+  <tr>
+    <td>Component  </td>
+    <td>Bileşen</td>
+  </tr>
+  <tr>
+    <td>Compression  </td>
+    <td>Sıkıştırma</td>
+  </tr>
+  <tr>
+    <td>Conctrete Beam  </td>
+    <td>Beton Kirişi</td>
+  </tr>
+  <tr>
+    <td>Condense</td>
+    <td>Yoğunlaştırmak</td>
+  </tr>
+  <tr>
+    <td>Conductive</td>
+    <td>İletken</td>
+  </tr>
+  <tr>
+    <td>Cone  </td>
+    <td>Huni</td>
+  </tr>
+  <tr>
+    <td>Configuration  </td>
+    <td>Biçim </td>
+  </tr>
+  <tr>
+    <td>Conscious  </td>
+    <td>Bilinçli</td>
+  </tr>
+    <tr>
+    <td>Constant Ratio  </td>
+    <td>Sabit Oran</td>
+  </tr>
+  <tr>
+    <td>Constituent  </td>
+    <td>Bileşen</td>
+  </tr>
+    <tr>
+    <td>Contrivance  </td>
+    <td>İcat</td>
+  </tr>
+  <tr>
+    <td>Copper  </td>
+    <td>Bakır</td>
+  </tr>
+    <tr>
+    <td>Corrosion  </td>
+    <td>Paslanma</td>
+  </tr>
+    <tr>
+    <td>Coupling</td>
+    <td> Kapling  </td>
+  </tr>
+  <tr>
+    <td> Craft</td>
+    <td>Zanaat</td>
+  </tr>
+  <tr>
+    <td>Crank  </td>
+    <td>Manivela</td>
+  </tr>
+  <tr>
+    <td>Credited  </td>
+    <td>İtibar</td>
+  </tr>
+  <tr>
+    <td>Custion  </td>
+    <td>Etkiyi Azaltmak</td>
+  </tr>
+<tr>
+    <td class="header">D</td>
+    <td class="header"></td>
+  </tr>
+  <tr>
+    <td>Defeat  </td>
+    <td>Zafer</td>
+  </tr>
+  <tr>
+    <td>Desirable  </td>
+    <td>Hoş</td>
+  </tr>
+  <tr>
+    <td>Device  </td>
+    <td>Alet</td>
+  </tr>
+  <tr>
+    <td>Devide  </td>
+    <td>Bölmek</td>
+  </tr>
+  <tr>
+    <td>Diameter  </td>
+    <td>Çap</td>
+  </tr>
+  <tr>
+    <td>Discipline </td>
+    <td>Bilim Dalı</td>
+  </tr>
+  <tr>
+    <td>Dispute  </td>
+    <td>Anlaşmazlık</td>
+  </tr>
+  <tr>
+    <td>Divert  </td>
+    <td>Saptırmak</td>
+  </tr>
+  <tr>
+    <td>Double Glazing  </td>
+    <td>Çift Camlı</td>
+  </tr>
+  <tr>
+    <td>Drill Press</td>
+    <td>Matkap Tezgahı</td>
+  </tr>
+  <tr>
+    <td>Drop  </td>
+    <td>Azaltmak</td>
+  </tr></td>
+  </tr>
+  <tr>
+    <td>Drop out  </td>
+    <td>Okulu Bırakmak</td>
+  </tr>
+  <tr>
+    <td>Ductile  </td>
+    <td>Sünek</td>
+  </tr>
+<tr>
+    <td class="header">E</td>
+    <td class="header"></td>
+  </tr>
+  <tr>
+    <td>Efficiency  </td>
+    <td>Verim </td>
+  </tr>
+  <tr>
+    <td>Emprical İnfirmation  </td>
+    <td>Deneysel Bilgi</td>
+  </tr>
+  <tr>
+    <td>Entire Load  </td>
+    <td>Tüm Yük</td>
+  </tr>
+  <tr>
+    <td>Equilibrium</td>
+    <td>Denge</td>
+  </tr>
+  <tr>
+    <td>Escalate  </td>
+    <td>Yükselmek</td>
+  </tr>
+  <tr>
+    <td>Escalator  </td>
+    <td>Yürüyen Merdiven</td>
+  </tr>
+  <tr>
+    <td>Establish  </td>
+    <td>Kurmak</td>
+  </tr>
+  <tr>
+    <td>Evolve  </td>
+    <td>Geliştirmek</td>
+  </tr>
+  <tr>
+    <td>Exceed  </td>
+    <td>Aşmak</td>
+  </tr>
+  <tr>
+    <td>Exerting  </td>
+    <td>Uygulamak</td>
+  </tr>
+  <tr>
+    <td>Exhoust  </td>
+    <td>Egzoz</td>
+  </tr>
+  <tr>
+    <td> Expansion  </td>
+    <td>Genleşme</td>
+  </tr>
+  <tr>
+    <td>Expel  </td>
+    <td>Dışarı Atmak</td>
+  </tr>
+  <tr>
+    <td>Extract  </td>
+    <td>Ayıklamak</td>
+  </tr>
+ <tr>
+    <td class="header">F</td>
+    <td class="header"></td>
+  </tr>
+    <td>Fixed Block  </td>
+    <td>Sabit Makara</td>
+  </tr>
+  <tr>
+    <td>Flexibility  </td>
+    <td>Esneklik</td>
+  </tr>
+  <tr>
+    <td>Flow  </td>
+    <td>Akış</td>
+  </tr>
+  <tr>
+    <td>Flywheel  </td>
+    <td>Volan</td>
+  </tr>
+  <tr>
+    <td>Force  </td>
+    <td>Kuvvet</td>
+  </tr>
+  <tr>
+    <td>Former  </td>
+    <td>Eski</td>
+  </tr>
+  <tr>
+    <td>Forrunner  </td>
+    <td>Öncü</td>
+  </tr>
+  <tr>
+    <td>Four Stroke Engine  </td>
+    <td>Dört Vuruşlu Motor</td>
+  </tr>
+  <tr>
+    <td>Fragile  </td>
+    <td>Narin</td>
+  </tr>
+  <tr>
+    <td>Friction  </td>
+    <td>Sürtünme</td>
+  </tr>
+  <tr>
+    <td> Fulcrum  </td>
+    <td>Destek </td>
+  </tr>
+  <tr>
+    <td>Function  </td>
+    <td>Fonksiyon</td>
+  </tr>
+<tr>
+    <td class="header">G</td>
+    <td class="header"></td>
+  </tr>
+    <td>Gear  </td>
+    <td>Dişli</td>
+  </tr>
+  <tr>
+    <td>Glider  </td>
+    <td>Planör</td>
+  </tr>
+  <tr>
+    <td>Gradually  </td>
+    <td>Azar-Azar</td>
+  </tr>
+  <tr>
+    <td>Gravity  </td>
+    <td>Yer Çekimi</td>
+  </tr>
+  <tr>
+    <td>Grind-Grain  </td>
+    <td>Tahıl Öğütmek</td>
+  </tr>
+  <tr>
+    <td>Gunpowder  </td>
+    <td>Barut</td>
+  </tr>
+ <tr>
+    <td class="header">H</td>
+    <td class="header"></td>
+  </tr>
+  <tr>
+    <td>Helical  </td>
+    <td>Sarmal</td>
+  </tr>
+  <tr>
+    <td>Hinge  </td>
+    <td>Menteşe</td>
+  </tr>
+  <tr>
+    <td>Horizontal  </td>
+    <td>Yatay</td>
+  </tr>
+  <tr>
+    <td>Horse </td>
+    <td>Power </td>
+  </tr>
+  <tr>
+    <td>Humane  </td>
+    <td>İnsancıl</td>
+  </tr>
+<tr>
+    <td class="header">I</td>
+    <td class="header"></td>
+  </tr>
+    <td>Illustrate  </td>
+    <td>Örneklendirmek</td>
+  </tr>
+  <tr>
+    <td> Inclined Place  </td>
+    <td>Eğik Düzlem</td>
+  </tr>
+  <tr>
+    <td>Index </td>
+    <td>Gösterge</td>
+  </tr>
+  <tr>
+    <td>Industrial Revolution</td>
+    <td>Sanayi Devrimi</td>
+  </tr>
+  <tr>
+    <td>Ingenious</td>
+    <td>Zeki</td>
+  </tr>
+  <tr>
+    <td>Input-Output</td>
+    <td>Giriş-Çıkış</td>
+  </tr>
+  <tr>
+    <td>Installtation</td>
+    <td>Tesisat</td>
+  </tr>
+  <tr>
+    <td>Insulator  </td>
+    <td>Yalıtkan</td>
+  </tr>
+  <tr>
+    <td>Intend  </td>
+    <td>Amaçlamak</td>
+  </tr>
+  <tr>
+    <td>Interaction  </td>
+    <td>Etkileşim</td>
+  </tr>
+  <tr>
+    <td>Internal Combustion Engine  </td>
+    <td>İçten Yanmalı Motor</td>
+  </tr>
+  <tr>
+    <td>Invisible  </td>
+    <td>Görünmez</td>
+  </tr>
+  <tr>
+    <td class="header">J</td>
+    <td class="header"></td>
+  </tr>
+  <tr>
+    <td>Joint  </td>
+    <td>Birleşme Noktası</td>
+  </tr>
+  <tr>
+    <td class="header">K</td>
+    <td class="header"></td>
+  </tr>
+  <tr>
+    <td>Kerosene  </td>
+    <td>Gazyağı</td>
+  </tr>
+  <tr>
+    <td class="header">L</td>
+    <td class="header"></td>
+  </tr>
+  <tr>
+    <td>Lathe  </td>
+    <td>Torna</td>
+  </tr>
+  <tr>
+    <td> Lever  </td>
+    <td>Kaldıraç</td>
+  </tr>
+  <tr>
+    <td>Linear Motion  </td>
+    <td>Doğrusal Hareket</td>
+  </tr>
+  <tr>
+    <td>Liquid  </td>
+    <td>Sıvı</td>
+  </tr>
+  <tr>
+    <td>Load End  </td>
+    <td>Yük Ucu</td>
+  </tr>
+  <tr>
+    <td>Lübricant </td>
+    <td>Yağlayıcı Madde</td>
+  </tr>
+  <tr>
+    <td class="header">M</td>
+    <td class="header"></td>
+  </tr>
+  <tr>
+    <td>Magnetic Field  </td>
+    <td>Manyetik Alan</td>
+  </tr>
+  <tr>
+    <td>Magnitude</td>
+    <td>Büyüklük</td>
+  </tr>
+  <tr>
+    <td>Maintain</td>
+    <td>Dövülebilir</td>
+  </tr>
+  <tr>
+    <td>Mass    </td>
+    <td>Kütle</td>
+  </tr>
+  <tr>
+    <td>Mine  </td>
+    <td>Zanaat</td>
+  </tr>
+  <tr>
+    <td>Maden</td>
+    <td>Zanaat</td>
+  </tr>
+  <tr>
+    <td class="header">N</td>
+    <td class="header"></td>
+  </tr>
+  <tr>
+    <td>Needle  </td>
+    <td>İbre</td>
+  </tr>
+  <tr>
+    <td>Nipper  </td>
+    <td>Pense</td>
+  </tr>
+  <tr>
+    <td>Nuclear  </td>
+    <td>Nükleer</td>
+  </tr>
+  <tr>
+    <td class="header">O</td>
+    <td class="header"></td>
+  </tr>
+  <tr>
+    <td> Observation  </td>
+    <td>Gözlem</td>
+  </tr>
+  <tr>
+    <td>Occupation  </td>
+    <td>Meslek</td>
+  </tr>
+  <tr>
+    <td>Occur  </td>
+    <td>Meydana gelmek</td>
+  </tr>
+  <tr>
+    <td>Oscillating</td>
+    <td>Titreşme</td>
+  </tr>
+  <tr>
+    <td class="header">P</td>
+    <td class="header"></td>
+  </tr>
+  <tr>
+    <td>Partial Vacuum  </td>
+    <td>Kısmi Vakum</td>
+  </tr>
+  <tr>
+    <td>Pattern</td>
+    <td>Kalıp</td>
+  </tr>
+  <tr>
+    <td>Pawl  </td>
+    <td>Çark Mandalı</td>
+  </tr>
+  <tr>
+    <td>Pendulum  </td>
+    <td>Sarkaç</td>
+  </tr>
+  <tr>
+    <td>Permit  </td>
+    <td>İzin Vermek</td>
+  </tr>
+  <tr>
+    <td>Perpendium  </td>
+    <td>Dik</td>
+  </tr>
+  <tr>
+    <td>Pioneer  </td>
+    <td>Öncü</td>
+  </tr>
+  <tr>
+    <td>Portable  </td>
+    <td>Taşınabilir</td>
+  </tr>
+  <tr>
+    <td>Poure  </td>
+    <td>Boşaltmak</td>
+  </tr>
+  <tr>
+    <td>Predetermined  </td>
+    <td>Önceden Belirlenmiş</td>
+  </tr>
+  <tr>
+    <td> Preminence  </td>
+    <td>Üstünlük</td>
+  </tr>
+  <tr>
+    <td>Pressure  </td>
+    <td>Basınç</td>
+  </tr>
+  <tr>
+    <td>Prime Mover  </td>
+    <td>Güç Kaynağı</td>
+  </tr>
+  <tr>
+    <td>Process  </td>
+    <td>İşlem</td>
+  </tr>
+  <tr>
+    <td>Profession  </td>
+    <td>Meslek</td>
+  </tr>
+  <tr>
+    <td>Propeller  </td>
+    <td>Pervane</td>
+  </tr>
+  <tr>
+    <td>Proportinal  </td>
+    <td>Orantılı</td>
+  </tr>
+  <tr>
+    <td>Pulley  </td>
+    <td>Kasnak</td>
+  </tr>
+  <tr>
+    <td>Pump  </td>
+    <td>Pompa</td>
+  </tr>
+  <tr>
+    <td>Punch  </td>
+    <td>Delgeç</td>
+  </tr>
+  <tr>
+    <td class="header">R</td>
+    <td class="header"></td>
+  </tr>
+    <tr>
+    <td>Races</td>
+    <td>Yuva, Rulmanda Bilye Yatağı</td>
+  </tr>
+  <tr>
+    <td>Radii of a Circle</td>
+    <td>Dairenin Yarıçapı</td>
+  </tr>
+  <tr>
+    <td>Rapidly  </td>
+    <td>Hızlıca</td>
+  </tr>
+  <tr>
+    <td>Ratio  </td>
+    <td>Oran</td>
+  </tr>
+  <tr>
+    <td>Reciprocating Motion</td>
+    <td>Karşılıklı Hareket</td>
+  </tr>
+   <tr>
+    <td>Reciprocating Motion</td>
+    <td>Karşılıklı Hareket</td>
+  </tr>
+  <tr>
+    <td> Resin </td>
+    <td>Reçine, Akındırık</td>
+  </tr>
+  <tr>
+    <td>Refine  </td>
+    <td>Arıtmak</td>
+  </tr>
+  <tr>
+    <td>Refrigeration System</td>
+    <td>Soğutma Sistemi</td>
+  </tr>
+  <tr>
+    <td>Relative Motion</td>
+    <td>Göreceli Hareket</td>
+  </tr>
+  <tr>
+    <td>Release  </td>
+    <td>Serbest Bırakmak</td>
+  </tr>
+  <tr>
+    <td>Renewed  </td>
+    <td>Yenilenmiş</td>
+  </tr>
+  <tr>
+    <td>Resisting Force </td>
+    <td>Karşı Kuvvet</td>
+  </tr>
+  <tr>
+    <td>Resit  </td>
+    <td>Büt</td>
+  </tr>
+  <tr>
+    <td>Resultant  </td>
+    <td>Bileşke</td>
+  </tr>
+  <tr>
+    <td>Reverse  </td>
+    <td>Ters</td>
+  </tr>
+  <tr>
+    <td>Revert  </td>
+    <td>Dönüştürmek</td>
+  </tr>
+  <tr>
+    <td>Rigid  </td>
+    <td>Sert</td>
+  </tr>
+  <tr>
+    <td>Rod  </td>
+    <td>Çubuk</td>
+  </tr>
+  <tr>
+    <td>Rope  </td>
+    <td>İp </td>
+  </tr>
+  <tr>
+    <td>Rotary Motion  </td>
+    <td>Döner Hareket </td>
+  </tr>
+  <tr>
+    <td class="header">S</td>
+    <td class="header"></td>
+  </tr>
+  <tr>
+    <td>Safety Helmet  </td>
+    <td>Baret</td>
+  </tr>
+  <tr>
+    <td>Sawing  </td>
+    <td>Testere</td>
+  </tr>
+  <tr>
+    <td>Scale  </td>
+    <td>Terazi</td>
+  </tr>
+  <tr>
+    <td>Scan  </td>
+    <td>Taramak</td>
+  </tr>
+  <tr>
+    <td>Screw  </td>
+    <td>Vida</td>
+  </tr>
+  <tr>
+    <td>Set on Fire</td>
+    <td>Ateş Yakmak</td>
+  </tr>
+  <tr>
+    <td>Slanted</td>
+    <td>Eğimli</td>
+  </tr>
+  <tr>
+    <td>Solid</td>
+    <td>Katı</td>
+  </tr>
+  <tr>
+    <td>Sophisticated  </td>
+    <td>Çok Yönlü</td>
+  </tr>
+  <tr>
+    <td>Spark  </td>
+    <td>Kıvılcım</td>
+  </tr>
+  <tr>
+    <td>Spark Plug</td>
+    <td>Buji</td>
+  </tr>
+  <tr>
+    <td>Split  </td>
+    <td>Bölmek</td>
+  </tr>
+  <tr>
+    <td>Spokes  </td>
+    <td>İspit</td>
+  </tr>
+  <tr>
+    <td> Spring  </td>
+    <td>Yay</td>
+  </tr>
+  <tr>
+    <td>Stationary  </td>
+    <td>Sabit</td>
+  </tr>
+  <tr>
+    <td>Steam  </td>
+    <td>Buhar</td>
+  </tr>
+  <tr>
+    <td>Steam Power</td>
+    <td>Buhar Gücü</td>
+  </tr>
+  <tr>
+    <td>Store Energy</td>
+    <td>Enerji Depolamak</td>
+  </tr>
+  <tr>
+    <td>Stove  </td>
+    <td>Soba</td>
+  </tr>
+  <tr>
+    <td>Strip  </td>
+    <td>Şerit</td>
+  </tr>
+  <tr>
+    <td>Stroke </td>
+    <td>Vuruş</td>
+  </tr>
+  <tr>
+    <td>Substance  </td>
+    <td>Madde</td>
+  </tr>
+  <tr>
+    <td>Suck  </td>
+    <td>Emmek</td>
+  </tr>
+  <tr>
+    <td>Supplies  </td>
+    <td>Gereçler</td>
+  </tr>
+  <tr>
+    <td>Sustain  </td>
+    <td>Sürdürmek</td>
+  </tr>
+  <tr>
+    <td>Swicthgear  </td>
+    <td>Şalt</td>
+  </tr>
+  <tr>
+    <td class="header">T</td>
+    <td class="header"></td>
+  </tr>
+  <tr>
+    <td>Tap  </td>
+    <td>Musluk</td>
+  </tr>
+  <tr>
+    <td> Tapered  </td>
+    <td>Konik</td>
+  </tr>
+  <tr>
+    <td>Technician  </td>
+    <td>Teknisyen</td>
+  </tr>
+  <tr>
+    <td>Thermal  </td>
+    <td>Termal</td>
+  </tr>
+  <tr>
+    <td>Thikness  </td>
+    <td>Kalınlık</td>
+  </tr>
+  <tr>
+    <td>Tightening  </td>
+    <td>Sıkmak</td>
+  </tr>
+  <tr>
+    <td>Tin  </td>
+    <td>Kalay </td>
+  </tr>
+  <tr>
+    <td>Tool  </td>
+    <td>Alet</td>
+  </tr>
+  <tr>
+    <td>Topple  </td>
+    <td>Devirmek</td>
+  </tr>
+  <tr>
+    <td>Torsion  </td>
+    <td>Dönme, Burulma</td>
+  </tr>
+  <tr>
+    <td>Tough  </td>
+    <td>Sert</td>
+  </tr>
+  <tr>
+    <td>Trancend  </td>
+    <td>Aşmak</td>
+  </tr>
+  <tr>
+    <td>Transmit  </td>
+    <td>İletmek</td>
+  </tr>
+  <tr>
+    <td class="header">U</td>
+    <td class="header"></td>
+  </tr>
+  <tr>
+    <td>Utensil  </td>
+    <td>Mutfak eşyası</td>
+  </tr>
+  <tr>
+    <td class="header">V</td>
+    <td class="header"></td>
+  </tr>
+   <tr>
+    <td>Valve</td>
+    <td>Valf, Kapakçık</td>
+  </tr>
+   <tr>
+    <td>Safety Valve</td>
+    <td>Emniyet Valfi</td>
+  </tr>
+  <tr>
+    <td>Velocity  </td>
+    <td>Hız</td>
+  </tr>
+  <tr>
+    <td>Vertical  </td>
+    <td>Dikey</td>
+  </tr>
+  <tr>
+    <td>Vessel  </td>
+    <td>Kap</td>
+  </tr>
+  <tr>
+    <td>Victory  </td>
+    <td>Yenilgi</td>
+  </tr>
+  <tr>
+    <td class="header">W</td>
+    <td class="header"></td>
+  </tr>
+   <tr>
+    <td>Walking Beam</td>
+    <td>Aktarma Kirişi</td>
+  </tr>
+  <tr>
+    <td>Wear  </td>
+    <td>Yıpranma</td>
+  </tr>
+  <tr>
+    <td>Wedge  </td>
+    <td>Kam</td>
+  </tr>
+  <tr>
+    <td>Weight  </td>
+    <td>Ağırlık</td>
+  </tr>
+  <tr>
+    <td>Wells  </td>
+    <td>Kuyular</td>
+  </tr>
+  <tr>
+    <td>Wheel and Axle</td>
+    <td>Mil ve Tekerlek</td>
+  </tr>
+  <tr>
+    <td>Wire  </td>
+    <td>Tel</td>
+  </tr>
+  <tr>
+    <td>Withstand  </td>
+    <td>Dayanmak</td>
+  </tr>
+  <tr>
+    <td>Wrap  </td>
+    <td>Sarmak</td>
+  </tr>
+  
+
+  
+
+</table>
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+<script>
+function myFunction1() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput1");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    td1 = tr[i].getElementsByTagName("td")[1];
+    if (td && td1) {
+      txtValue = td.textContent || td.innerText;
+      txtValue = td1.textContent || td1.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+<p style="margin-left: 400px; size: 10;">Made By Kamil Erkan & Seyithan Altıntaş</p>
+</code>
+</body>
+</html>
